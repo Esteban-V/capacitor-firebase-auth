@@ -5,8 +5,8 @@ import { Observable, throwError } from 'rxjs';
 
 import { CapacitorFirebaseAuth } from '../';
 import {
-  AppleSignInResult, FacebookSignInResult, GoogleSignInResult, PhoneSignInResult, SignInOptions,
-  SignInResult, TwitterSignInResult
+	AppleSignInResult, FacebookSignInResult, GoogleSignInResult, PhoneSignInResult, SignInOptions,
+	SignInResult, TwitterSignInResult
 } from '../definitions';
 
 /**

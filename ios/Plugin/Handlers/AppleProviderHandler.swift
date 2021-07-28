@@ -90,7 +90,7 @@ extension AppleProviderHandler: ASAuthorizationControllerDelegate, ASAuthorizati
             }
             
             // Initialize a Firebase credential.
-            let credential = OAuthProvider.credential(withProviderID: "apple.com", idToken: idTokenString, rawNonce: nonce)
+            let credential = OAuthProvider.credential(withProviderID: "apple.com", idToken: idTokenString, accessToken: nonce)
             
             // Sign in with Firebase.
             self.plugin?.handleAuthCredentials(credential: credential);
